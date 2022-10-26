@@ -1,0 +1,84 @@
+.cbody{
+    background-image: url(/images/bgwood.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.div-foto{
+    display: flex;
+    justify-content: center;
+    margin-left: 30px;
+}
+
+.foto-clara{
+    height: 650px;
+}
+
+.div-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 30px;
+    margin-right: 30px;
+}
+
+.logo-cc{
+    width: 300px;
+}
+
+.social-icons{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.social-icons svg{
+    fill: white;
+    background-color: black;
+    border: 2px solid white;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    padding: 1px;
+    margin-right: 30px;
+    transition: 0.5s;
+    transform: scale(1);
+}
+
+.social-icons svg:hover{
+    transform: scale(1.1);
+}
+
+.yt-title{
+    color: white;
+    font-family: 'Montserrat';
+    font-size: 24px;
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+
+.yt-title span{
+    font-weight: bold;
+    font-size: 28px;
+}
+
+.home-video{
+    padding: 10px 0;
+}
+
+.yt-video{
+    border-radius: 30px;
+    width: 500px;
+    height: calc(500px / 1.7777);
+}
+
+.line-footer{
+    background-image: url(/images/bgtable.jpeg);
+    background-size: cover;
+    background-color: black;
+    height: 50px;
+    opacity: 1;
+    margin-top: 0px;
+    position: relative;
+}
