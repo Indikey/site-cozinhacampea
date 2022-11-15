@@ -1,84 +1,190 @@
-.cbody{
-    background-image: url(/images/bgwood.jpeg);
+.header{
+    padding: 30px 0 20px 0;
+    background-image: url(../images/bgcozcamweb.png);
+    /* background-color: #AE6238; */
+    /* background-color: #1A66D4; */
     background-size: cover;
     background-repeat: no-repeat;
 }
 
-.div-foto{
-    display: flex;
-    justify-content: center;
-    margin-left: 30px;
+@media only screen and (max-width: 600px) {
+    header {
+        background-image: url(../images/bgcozcammob.png);
+    }
+  }
+
+.line hr{
+margin-top: -15px;
+border: 3px solid #E88F3D;
+width: 80px;
+opacity: 1;
+border-radius: 20px;
 }
 
-.foto-clara{
-    height: 650px;
-}
-
-.div-text{
+.header-left{
     display: flex;
-    justify-content: center;
-    align-items: center;
     flex-direction: column;
-    margin-top: 30px;
-    margin-right: 30px;
+    align-items: center;
 }
 
-.logo-cc{
-    width: 300px;
+.cozcam-logo{
+    width: 250px;
 }
 
-.social-icons{
-    display: flex;
-    justify-content: center;
+.social-media{
+    margin-top: 10px;
+}
+
+.header-title{
+    color: white;
+}
+
+.sec-title{
+    margin-top: 20px;
+    font-family: 'Archivo Black';
+    font-size: 24px;
+}
+
+.social-media-icons svg{
+    fill:white;
+    width: 25px;
+    height: 25px;
+    transition: 0.5s;
+    margin: 0 10px 0 10px;
+}
+
+.social-media-icons svg:hover{
+    fill: #f3993e;
+}
+
+.social-media-icons a{
+    text-decoration: none;
+}
+
+.episodes{
     margin-top: 20px;
 }
 
-.social-icons svg{
-    fill: white;
-    background-color: black;
-    border: 2px solid white;
-    border-radius: 50%;
-    width: 40px;
-    height: 40px;
-    padding: 1px;
-    margin-right: 30px;
-    transition: 0.5s;
-    transform: scale(1);
+.episodes-list{
+    display: flex;
+    flex-direction: column;
 }
 
-.social-icons svg:hover{
-    transform: scale(1.1);
-}
-
-.yt-title{
+.episodes-list a{
+    text-decoration: none;
     color: white;
     font-family: 'Montserrat';
-    font-size: 24px;
-    margin-top: 20px;
-    margin-bottom: 0;
+    transition: 0.5s;
 }
 
-.yt-title span{
+.episodes-list a:hover{
+    color: #f3993e;
+}
+
+.episodes-list span{
+    font-size: 12px;
     font-weight: bold;
-    font-size: 28px;
 }
 
-.home-video{
-    padding: 10px 0;
+/* _________ */
+
+.header-right{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header-right img{
+    height: 380px;
 }
 
 .yt-video{
+    margin-top: -80px;
     border-radius: 30px;
     width: 500px;
     height: calc(500px / 1.7777);
 }
 
-.line-footer{
-    background-image: url(/images/bgtable.jpeg);
-    background-size: cover;
-    background-color: black;
-    height: 50px;
-    opacity: 1;
-    margin-top: 0px;
-    position: relative;
+  @media only screen and (max-width: 600px) {
+    .yt-video {
+        width: 330px;
+        height: calc(330px / 1.7777);
+    }
+  }
+
+  /* _________ */
+
+  .release-text{
+    text-align: justify;
+    font-family: 'Montserrat';
+  }
+
+  .yt-video2{
+    border-radius: 30px;
+    width: 500px;
+    height: calc(500px / 1.7777);
+}
+
+  @media only screen and (max-width: 600px) {
+    .yt-video2 {
+        width: 330px;
+        height: calc(330px / 1.7777);
+        margin-bottom: 20px;
+    }
+  }
+
+    /* _________ */
+
+  .patrocinadores{
+    background-color: #83CFFB;
+    padding-bottom: 20px;
+  }
+
+  .div-pat{
+    margin-top: -20px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .div-pat img{
+    max-width: 200px;
+    margin-top: 20px;
+  }
+
+      /* _________ */
+
+.div-footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 30px;
+}
+
+.logo-link{
+    transition: 0.5s;
+    transform: scale(1);
+}
+
+.logo-link:hover{
+    transform: scale(1.05);
+}
+
+.logo-idk{
+    width: 150px;
+}
+
+.release-text a{
+    text-decoration: none;
+    color: green;
+}
+
+.release-text a:hover{
+    color: #E88F3D;
+}
+
+.release-text svg{
+    fill:green;
+    width: 20px;
+    height: 20px;
 }
