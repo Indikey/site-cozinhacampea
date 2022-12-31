@@ -1,24 +1,32 @@
 .header{
-    padding: 30px 0 20px 0;
+    background-color: #AE6238;
+    padding: 30px 0;
+}
+
+.episodes{
+    padding: 20px 0;
     background-image: url(../images/bgcozcamweb.png);
-    /* background-color: #AE6238; */
-    /* background-color: #1A66D4; */
     background-size: cover;
     background-repeat: no-repeat;
+    margin: 0;
 }
 
 @media only screen and (max-width: 600px) {
-    header {
+    .episodes {
         background-image: url(../images/bgcozcammob.png);
     }
   }
-
+  
 .line hr{
-margin-top: -15px;
-border: 3px solid #E88F3D;
-width: 80px;
-opacity: 1;
-border-radius: 20px;
+    margin-top: -15px;
+    border: 3px solid #E88F3D;
+    width: 80px;
+    opacity: 1;
+    border-radius: 20px;
+}
+        
+.line2 hr{
+    border: 3px solid #83CFFB;
 }
 
 .header-left{
@@ -54,15 +62,11 @@ border-radius: 20px;
 }
 
 .social-media-icons svg:hover{
-    fill: #f3993e;
+    fill:#83CFFB;
 }
 
 .social-media-icons a{
     text-decoration: none;
-}
-
-.episodes{
-    margin-top: 20px;
 }
 
 .episodes-list{
@@ -99,18 +103,24 @@ border-radius: 20px;
 }
 
 .yt-video{
-    margin-top: -80px;
-    border-radius: 30px;
-    width: 500px;
-    height: calc(500px / 1.7777);
+    margin-top: 20px;
+    border-radius: 20px;
+    width: 350px;
+    height: calc(350px / 1.7777);
 }
 
-  @media only screen and (max-width: 600px) {
+@media only screen and (max-width: 600px) {
     .yt-video {
         width: 330px;
         height: calc(330px / 1.7777);
     }
-  }
+}
+
+.video-info{
+    margin-top: 10px;
+    font-family: 'Montserrat';
+    color:white;
+}
 
   /* _________ */
 
